@@ -1,0 +1,26 @@
+{
+	"name": "university-rating-aggregator",
+	"version": "0.0.1",
+	"description": "System of different ratings aggregation",
+	"scripts": {
+		"start": "node ./dist/index.js",
+		"node-watch": "nodemon ./dist/index.js",
+		"build": "tsc",
+		"watch": "tsc -w"
+	},
+	"author": "Aliaksei-Martinkevich",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Aliaksei-Martinkevich/university-rating-aggregator.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Aliaksei-Martinkevich/university-rating-aggregator/issues"
+	},
+	"devDependencies": {
+		"nodemon": "1.18.4",
+		"tslint": "5.11.0",
+		"tslint-config-airbnb": "5.11.0",
+		"typescript": "3.1.1"
+	}
+}

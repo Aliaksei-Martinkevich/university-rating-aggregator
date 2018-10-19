@@ -1,13 +1,30 @@
 {
 	"compilerOptions": {
+		"alwaysStrict": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
 		"module": "commonjs",
-		"target": "es6",
-		"sourceMap": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "dist",
+		"pretty": true,
 		"rootDir": "src",
-		"outDir": "dist"
+		"sourceMap": true,
+		"strict": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": false,
+		"target": "es6",
 	},
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		"dist"
 	],
 	"include": [
 		"src"
